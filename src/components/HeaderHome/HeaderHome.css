@@ -1,0 +1,31 @@
+.home-page header{
+    background-image: url('https://images.pexels.com/photos/5793/food-healthy-hand-cooking.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+}
+
+header{
+    background-size: cover;
+    background-position: center;
+}
+
+header h1{
+    font-size: 5rem;
+}
+
+.home-page header h1,
+.home-page header h2
+{
+text-shadow: 2px 2px 8px #4e4e4e;
+}
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 3rem;
+    }
+}
